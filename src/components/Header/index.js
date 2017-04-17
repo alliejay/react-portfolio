@@ -49,8 +49,10 @@ class Header extends Component {
             <img src={ProfileImg} className="profile-pic" />
         </div>
         <div className="name-title">
-          <h1>Allie J Arsenault</h1>
-          <h2>Web Development & Design</h2>
+          <Link to="/">
+            <h1>Allie J Arsenault</h1>
+            <h2>Web Development & Design</h2>
+          </Link>
         </div>
         <div className="nav-items">
           {items}

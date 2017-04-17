@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router'
-import RouteWrapper from 'RouteWrapper'
-import Header from 'Header'
+import LayoutWrapper from 'LayoutWrapper'
 
 import './styles/index.scss'
 
@@ -14,9 +13,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter history={history}>
-        <RouteWrapper>
-          {this.props.children}
-        </RouteWrapper>
+        <LayoutWrapper />
       </BrowserRouter>
   )
   }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Match, Redirect } from 'react-router'
+import { Match } from 'react-router'
 import Homepage from 'Homepage'
 import About from 'About'
 import Resume from 'Resume'
@@ -8,7 +8,7 @@ import Contact from 'Contact'
 import Header from 'Header'
 import './styles.scss'
 
-class RouteWrapper extends Component {
+class LayoutWrapper extends Component {
   constructor(props)  {
     super(props)
   }
@@ -19,6 +19,7 @@ class RouteWrapper extends Component {
         <div className="header">
           <Header />
         </div>
+
         <div className="content">
           <Match exactly pattern="/" component={Homepage} />
           <Match exactly pattern="/about" component={About} />
@@ -31,4 +32,4 @@ class RouteWrapper extends Component {
   }
 }
 
-export default RouteWrapper
+export default LayoutWrapper

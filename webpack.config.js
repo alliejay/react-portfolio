@@ -61,7 +61,7 @@ const getPlugins = () => {
 
 const config = {
   context: __dirname,
-  entry: [ 'babel-polyfill', './src/index.js' ],
+  entry: [ 'babel-polyfill', './src/test.js' ],
   devtool: !isProd ? 'eval' : false,
   debug: !isProd ? true : false,
   output: {
@@ -71,7 +71,7 @@ const config = {
     sourceMapFilename: "bundle.js.map"
   },
   resolve: {
-    modulesDirectories: [ 'node_modules', 'src', 'src/containers', 'src/components', 'src/components/Header', 'src/actions', 'src/reducers', 'src/services', 'src/img' ],
+    modulesDirectories: [ 'node_modules', 'src', 'src/containers', 'src/components', 'src/components/Header', 'src/actions', 'src/reducers', 'src/services', 'src/img', 'src/icons' ],
     extensions: [ "", ".js", ".scss", ".css" ]
   },
   module: {

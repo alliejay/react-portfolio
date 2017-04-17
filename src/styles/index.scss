@@ -1,2 +1,50 @@
 @import '../../node_modules/normalize.css/normalize.css';
 @import './_variables';
+
+// GENERAL
+
+h1 {
+  color: #858FBE;
+  font-family: $h1Font;
+  font-size: 4.5em;
+  margin: 5px 0;
+  opacity: .80;
+}
+
+h2 {
+  color: #394683;
+  font-family: $h2Font;
+  font-weight: lighter;
+  font-size: 2em;
+  opacity: .80;
+}
+
+h3 {
+  color: #394683;
+  font-family: $h3Font;
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+body {
+  color: #334455;
+  margin: 0;
+  font-family: $textFont;
+}
+
+a {
+  color: #073949;
+  &:visited {
+    color: #073949;
+  }
+  &:active {
+    color: #334455;
+  }
+}
+
+
+
+

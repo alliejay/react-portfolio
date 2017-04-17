@@ -3,10 +3,9 @@
 .header-main {
   background-color: $light-grey;
   border-top: 5px solid $main-blue;
-  height: 450px;
+  height: 430px;
   margin: 0;
   width: 100%;
-  position: fixed;
   z-index: 2;
 }
 
@@ -21,7 +20,7 @@
   margin: 0 auto;
   position: relative;
     top: 30px;
-  width: 175px;
+  width: 185px;
 }
 
 .name-title {
@@ -34,15 +33,18 @@
     font-weight: lighter;
     opacity: .8;
     color: $main-purple;
-    margin: 5px 0;
-  }
+    margin: 10px 0;
+}
   h2 {
     font-family: $h2Font;
     color: $light-purple;
     font-weight: lighter;
     font-size: 1.75em;
     opacity: .8;
-    margin: 15px 0;
+    margin: 20px 0 10px 0;
+  }
+  a {
+    text-decoration: none;
   }
 }
 

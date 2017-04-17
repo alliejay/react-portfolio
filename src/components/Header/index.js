@@ -1,30 +1,30 @@
 import React, { Component } from 'react'
 import Link from 'react-router/Link'
+import ProfileImg from 'cartoon-dev-allie.png'
 import 'styles.scss'
 
 class Header extends Component {
 
   constructor(props) {
     super(props)
-
   }
 
   navItems = () => {
     return [
       {
-        text: "About",
+        text: "about",
         route: "/about"
       },
       {
-        text: "Resume",
+        text: "resume",
         route: "/resume"
       },
       {
-        text: "Portfolio",
+        text: "portfolio",
         route: "/portfolio"
       },
       {
-        text: "Contact",
+        text: "contact",
         route: "/contact"
       }
     ].filter((i) => i.text !== "none")
@@ -33,7 +33,7 @@ class Header extends Component {
   renderNav = (navItems) => {
     return navItems.map((i, index) => {
       return (
-        <Link key={index} to={i.route}>
+        <Link className="nav-item" key={index} to={i.route}>
           <span className="pointer">{i.text}</span>
         </Link>
       )
@@ -45,7 +45,16 @@ class Header extends Component {
 
     return (
       <div className="header-main">
-        {items}
+        <div className="header-img">
+            <img src={ProfileImg} className="profile-pic" />
+        </div>
+        <div className="name-title">
+          <h1>Allie J Arsenault</h1>
+          <h2>Web Development & Design</h2>
+        </div>
+        <div className="nav-items">
+          {items}
+        </div>
       </div>
     )
   }

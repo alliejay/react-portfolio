@@ -1,6 +1,64 @@
+@import '../../styles/_variables';
+
 .header-main {
-  background-color: #F4F6F7;
-  height: 400px;
+  background-color: $light-grey;
+  border-top: 5px solid $main-blue;
+  height: 450px;
   margin: 0;
   width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.header-img {
+  text-align: center;
+}
+
+.profile-pic {
+  background-color: white;
+  border: 2px solid #DFE2F2;
+  border-radius: 100%;
+  margin: 0 auto;
+  position: relative;
+    top: 30px;
+  width: 215px;
+}
+
+.name-title {
+  text-align: center;
+  position: relative;
+   top: 25px;
+  h1 {
+    font-family: $h1Font;
+    font-size: 4em;
+    font-weight: lighter;
+    opacity: .8;
+    color: $main-purple;
+    margin: 5px 0;
+  }
+  h2 {
+    font-family: $h2Font;
+    color: $light-purple;
+    font-weight: lighter;
+    font-size: 1.75em;
+    opacity: .8;
+    margin: 15px 0;
+  }
+}
+
+.nav-items {
+  width: 100%;
+  text-align: center;
+  position: relative;
+    top: 40px;
+}
+
+.nav-item {
+  margin: 5px 15px;
+  padding: 5px;
+  text-decoration: none;
+  color: $main-blue;
+  font-weight: bold;
+  font-family: $textFont;
+  font-size: 1.25em;
 }

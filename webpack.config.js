@@ -10,7 +10,6 @@ const isProd = process.env.ENV !== 'development'
 
 console.log('Running webpack with ' + (isProd ? 'PRODUCTION' : 'DEVELOPMENT') + ' config.')
 
-//dynamically builds plugin array for development/prod(dist)
 const getPlugins = () => {
   const plugins = []
 

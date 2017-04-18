@@ -9,6 +9,6 @@ const IconBriefcase = React.createClass({
       </svg>
     )
   }
-});
+})
 
 export default IconBriefcase

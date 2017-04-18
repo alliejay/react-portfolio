@@ -49,7 +49,7 @@ class Resume extends Component {
                 <span className="work-title">Front End Developer</span>
                 <p className="company">Technical Software Services, Inc.</p>
 
-                <p>I was hired by "TechSoft," a Department of Defense contractor, immediately after my graduation from <a>The Iron Yard</a>.  I supported my team as both the UI/UX Designer & as a Front End Developer. I worked for TechSoft for just over one year before moving over to Ceterus.</p>
+                <p>I was hired by "TechSoft," a Department of Defense contractor, immediately after my graduation from <a href="https://www.theironyard.com" target="_blank">The Iron Yard</a>.  I supported my team as both the UI/UX Designer & as a Front End Developer. I worked for TechSoft for just over one year before moving over to Ceterus.</p>
               </section>
             </div>
             {/*<!--SCHOOLING-->*/}

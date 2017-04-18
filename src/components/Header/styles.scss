@@ -25,6 +25,7 @@
 
 .name-title {
   text-align: center;
+  height: 150px;
   position: relative;
    top: 25px;
   h1 {
@@ -49,18 +50,36 @@
 }
 
 .nav-items {
+  background-color: $light-grey;
+  height: 100px;
   width: 100%;
   text-align: center;
   position: relative;
-    top: 40px;
+    top: 0;
+}
+
+#sticky {
+  transition: 1s all ease-in-out;
+}
+
+.scrolled-nav {
+  background-color: $light-grey;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+    top: 0;
+  z-index: 2;
 }
 
 .nav-item {
-  margin: 5px 15px;
+  margin: 0 15px;
   padding: 5px;
   text-decoration: none;
   color: $main-blue;
   font-weight: bold;
   font-family: $textFont;
   font-size: 1.25em;
+  position: relative;
+  top: 40%;
 }

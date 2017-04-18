@@ -9,6 +9,6 @@ const IconPalette = React.createClass({
       </svg>
     )
   }
-});
+})
 
 export default IconPalette

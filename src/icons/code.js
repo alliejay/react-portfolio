@@ -9,6 +9,6 @@ const IconCode = React.createClass({
       </svg>
     )
   }
-});
+})
 
 export default IconCode

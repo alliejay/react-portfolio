@@ -9,6 +9,6 @@ const IconGraduationCap = React.createClass({
       </svg>
     )
   }
-});
+})
 
 export default IconGraduationCap

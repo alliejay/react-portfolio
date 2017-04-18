@@ -9,6 +9,6 @@ const IconDownload = React.createClass({
       </svg>
     )
   }
-});
+})
 
 export default IconDownload

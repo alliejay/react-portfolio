@@ -6,10 +6,6 @@ import 'styles.scss'
 // sticky nav
 window.addEventListener('scroll', () => {
   const navClasses = document.querySelector("#sticky").classList
-
-  console.log(window.scrollY)
-
-
   if(window.scrollY >= 349) {
     navClasses.remove("nav-items")
     navClasses.add("scrolled-nav")
@@ -24,7 +20,6 @@ class Header extends Component {
   constructor(props) {
     super(props)
 
-    // this.handleScroll = this.handleScroll.bind(this)
   }
 
   navItems = () => {
@@ -57,8 +52,6 @@ class Header extends Component {
       )
     })
   }
-
-
 
   render () {
     const items = this.renderNav(this.navItems())

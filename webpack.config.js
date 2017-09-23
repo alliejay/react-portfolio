@@ -61,7 +61,7 @@ const getPlugins = () => {
 
 const config = {
   context: __dirname,
-  entry: [ 'babel-polyfill', './src/test.js' ],
+  entry: [ 'babel-polyfill', './src/index.js' ],
   devtool: !isProd ? 'eval' : false,
   debug: !isProd ? true : false,
   output: {

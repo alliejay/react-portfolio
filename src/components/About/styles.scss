@@ -1,0 +1,36 @@
+.sub-content {
+  padding-top: 25px;
+}
+
+.quote {
+  font-size: 3.5rem;
+  text-align: center;
+  p {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 10px;
+    color: #808080;
+  }
+}
+
+.about-pic, .about-pic-section {
+  display: inline-block;
+  float: left;
+}
+
+.about-pic {
+  margin: 0px 55px 25px 0px;
+  border-radius: 100%;
+  opacity: .75;
+  transition: 1s all ease-in-out;
+  &:hover {
+    opacity: .95;
+  }
+}
+
+.about-section {
+  p {
+    font-size: 1.65rem;
+    line-height: 1.65em;
+  }
+}

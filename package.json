@@ -21,6 +21,7 @@
     "rc-select": "6.7.5",
     "react": "15.3.2",
     "react-autosuggest": "^8.0.0",
+    "react-bootstrap": "^0.31.3",
     "react-cookie": "0.4.8",
     "react-datepicker": "0.34.0",
     "react-datetime": "git://github.com/YouCanBookMe/react-datetime.git#8ad8753157c2194c6b6839fa0d794886c59477b8",

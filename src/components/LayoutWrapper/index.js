@@ -6,6 +6,7 @@ import Resume from 'Resume'
 import Portfolio from 'Portfolio'
 import Contact from 'Contact'
 import Header from 'Header'
+import Footer from 'Footer'
 import './styles.scss'
 
 class LayoutWrapper extends Component {
@@ -26,6 +27,10 @@ class LayoutWrapper extends Component {
           <Match exactly pattern="/resume" component={Resume} />
           <Match exactly pattern="/contact" component={Contact} />
           <Match exactly pattern="/portfolio" component={Portfolio} />
+        </div>
+
+        <div className="footer">
+          <Footer />
         </div>
       </div>
     )

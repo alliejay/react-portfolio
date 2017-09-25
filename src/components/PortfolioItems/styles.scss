@@ -1,0 +1,41 @@
+@import '../../styles/_variables';
+
+.portfolio-item {
+  width: 90%;
+  margin: 25px auto;
+  padding: 5px 20px 20px 20px;
+  border: 1px solid $light-purple;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $light-purple;
+  h3, h5 {
+    display: inline-block;
+  }
+}
+
+.icon {
+  width: 50px;
+  border: none;
+  color: #2E6678;
+}
+
+.description {
+  line-height: 2.5rem;
+  font-size: 1.75rem;
+  ul {
+    list-style-type: none;
+  }
+}
+
+.image, .description {
+  margin-top: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.screenshot {
+  box-shadow: 0 0 8px -3px #666;
+}

@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import PortfolioItems from 'PortfolioItems'
+import { items } from './items'
+import './styles.scss'
 
 class Portfolio extends Component {
   constructor(props)  {
@@ -6,11 +9,7 @@ class Portfolio extends Component {
   }
 
   render () {
-    return (
-      <div>
-        PORTFOLIO
-      </div>
-    )
+    return <PortfolioItems data={items} />
   }
 }
 

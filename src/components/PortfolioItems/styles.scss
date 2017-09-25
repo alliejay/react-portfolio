@@ -11,15 +11,21 @@
   text-align: center;
   padding-bottom: 10px;
   border-bottom: 1px solid $light-purple;
-  h3, h5 {
+  h3, span {
+    vertical-align: middle;
     display: inline-block;
+    text-transform: uppercase;
+    color: #2E6678;
+  }
+  span {
+    padding: 17px 0 0 15px;
   }
 }
 
-.icon {
-  width: 50px;
-  border: none;
-  color: #2E6678;
+.portfolio-icon {
+  width: 40px;
+  fill: #2E6678;
+  opacity: .8;
 }
 
 .description {

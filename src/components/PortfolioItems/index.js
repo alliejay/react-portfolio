@@ -11,12 +11,19 @@ const PortfolioItems = (props) => {
     return(
         <div className="portfolio-item clearfix" key={obj.id}>
           <section className="title col col-12">
-            <h3>{obj.title}</h3>
-            <span><IconGithub iconTitle="Github" alt="Github Link" /></span>
+            <h4>{obj.title}</h4>
+            <span className="github-link">
+              <a href={obj.url} target="_blank">
+                <IconGithub iconTitle="Github" alt="Github Link" />
+                <h5>View on Github</h5>
+              </a>
+            </span>
           </section>
 
           <section className="image col-4">
-            <Image src={obj.mainImg} width="501px" height="300px" mode="fill" className="screenshot" />
+            <a href={obj.url} target="_blank">
+              <Image src={obj.mainImg} width="501px" height="300px" mode="fill" className="screenshot" />
+            </a>
           </section>
 
           <section className="description col-6 right">

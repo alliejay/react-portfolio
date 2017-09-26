@@ -17,7 +17,7 @@ export const items = [
     mainImg: "src/img/timeToRead.png",
     goal: "Using javascript, calculate the amount of time it would take the average reader (230 word/minute) to read a particular text and display the 'time to read' on the page.",
     challenge: "Write a function that would allow a programmer to adjust the words per minute rate in the console.  My function is 'howLong()' with the new rate being the parameter.",
-    personalExp: "I spend a lot of time solving a problem I was having where some white space was being counted as characters. I challenged myself to add a button to the page as well that allows the adjustment of the words per minute rate."
+    personalExp: "I spent a lot of time solving a problem I was having where some white space was being counted as characters. I challenged myself to add a button to the page as well that allows the adjustment of the words per minute rate."
   },
   {
     id: 4,

@@ -47,7 +47,9 @@ class Header extends Component {
     return navItems.map((i, index) => {
       return (
         <Link className="nav-item" key={index} to={i.route}>
-          <span className="pointer">{i.text}</span>
+          <span className="pointer cl-effect-5">
+            <a>{i.text}</a>
+          </span>
         </Link>
       )
     })
@@ -65,7 +67,7 @@ class Header extends Component {
           <div className="name-title">
             <Link to="/">
               <h1>Allie J Arsenault</h1>
-              <h2>Web Development & Design</h2>
+              <h2>Web Development</h2>
             </Link>
           </div>
         </div>

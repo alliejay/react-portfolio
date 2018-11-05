@@ -9,7 +9,12 @@ class Portfolio extends Component {
   }
 
   render () {
-    return <PortfolioItems data={items} />
+    return (
+      <div>
+        <h5>The following projects were completed during my time at The Iron Yard.</h5>
+        <PortfolioItems data={items} />
+      </div>
+    )
   }
 }
 

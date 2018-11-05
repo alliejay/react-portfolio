@@ -21,7 +21,7 @@ class Resume extends Component {
 
             {/*WORK HISTORY*/}
             <div className="first-column">
-              <IconBriefcase iconTitle="briefcase" alt="briefcase icon" />
+                <IconBriefcase iconTitle="briefcase" alt="briefcase icon" />
                 <span className="resume-title">WORK HISTORY</span>
             </div>
 
@@ -35,7 +35,7 @@ class Resume extends Component {
                 <span className="work-title">Front End Developer</span>
                 <p className="company">Ceterus</p>
 
-                <p>I currently work for Ceterus, an outstanding company that empowers small business entrepreneurs through automated bookkeeping solutions. I am responsible for the UI development of our applications using React & Redux, and for staying knowledgeable on latest best practices & advancements.</p>
+                <p>I currently work for Ceterus, an outstanding company that empowers small business entrepreneurs through automated bookkeeping solutions. I am responsible for the UI development of our applications using React & Redux, and for staying knowledgeable on latest best practices & advancements. I have also started contributing to the development of our API and our internal software, which is written in PHP.</p>
               </section>
             </div>
 

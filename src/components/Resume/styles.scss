@@ -28,12 +28,19 @@
   margin-left: 20px;
 }
 
+.work-school-title {
+  display: inline-block;
+  width: 85%;
+  border-bottom: 3px solid lightgray;
+  padding-bottom: 10px;
+}
+
 .icon, .resume-title {
   vertical-align: middle;
 }
 
 .resume-year {
-  margin-top: 40px;
+  margin-top: 50px;
   width: 63px;
   line-height: 58px;
   text-align: center;

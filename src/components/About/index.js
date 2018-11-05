@@ -29,7 +29,7 @@ class About extends Component {
 
               <p>I moved from Boston, MA (where I had lived my entire life) to Charleston, SC in March of 2015 and shortly after stopped working at the cell tower company. It was the perfect time to change career paths and choose a field that I have an organic interest in. It quickly became apparent that web development & design brings out a side of me I hadn't seen in years. I got excited to go to school every day and learn more about the amazing things I would become capable of as a front end engineer.</p>
 
-              <p>I was enrolled at The Iron Yard for their Fall 2015 Cohort in Front End Development, and graduated on January 8th. I was offered a job immediately following Graduation/Demo Day as a Front End Engineer for a Department of Defense contractor beginning in February 2016. One year later, in March of 2017 I accepted a position as Front End Engineer at <strong><Link to="https://ceterus.com/" target="_blank" style={{color: '#334455'}}>Ceterus</Link></strong> where I am still enployed today. If you wish to contact me for freelance inquiries or just to chat, please visit the contact page.</p>
+              <p>I was enrolled at The Iron Yard for their Fall 2015 Cohort in Front End Development, and graduated on January 8th. I was offered a job immediately following Graduation/Demo Day as a Front End Engineer for a Department of Defense contractor beginning in February 2016. One year later, in March of 2017 I accepted a position as Front End Engineer at <a href="https://ceterus.com/" target="_blank">Ceterus</a> where I am still enployed today. If you wish to contact me for freelance inquiries or just to chat, please visit the contact page.</p>
           </section>
         </p>
         </div>

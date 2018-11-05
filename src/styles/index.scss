@@ -14,18 +14,22 @@ h4 {
 }
 
 body {
-  color: #334455;
+  color: $textColor;
   margin: 0;
   font-family: $textFont;
 }
 
 a {
-  color: #073949;
+  color: $main-blue;
+  font-weight: bold;
+  &:hover {
+    text-decoration: underline;
+  }
   &:visited {
-    color: #073949;
+    color: $main-blue;
   }
   &:active {
-    color: #334455;
+    color: $main-blue;
   }
 }
 

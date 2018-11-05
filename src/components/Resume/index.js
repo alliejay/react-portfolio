@@ -22,7 +22,7 @@ class Resume extends Component {
             {/*WORK HISTORY*/}
             <div className="first-column">
                 <IconBriefcase iconTitle="briefcase" alt="briefcase icon" />
-                <span className="resume-title">WORK HISTORY</span>
+                <div className="resume-title work-school-title">WORK HISTORY</div>
             </div>
 
             {/*<!--CTI TOWERS-->*/}
@@ -35,7 +35,7 @@ class Resume extends Component {
                 <span className="work-title">Front End Developer</span>
                 <p className="company">Ceterus</p>
 
-                <p>I currently work for Ceterus, an outstanding company that empowers small business entrepreneurs through automated bookkeeping solutions. I am responsible for the UI development of our applications using React & Redux, and for staying knowledgeable on latest best practices & advancements. I have also started contributing to the development of our API and our internal software, which is written in PHP.</p>
+                <p>I currently work for <a href="https://www.ceterus.com" target="_blank">Ceterus</a> empowering small business entrepreneurs through automated bookkeeping solutions. I am part of a small team responsible for the development of our client facing application using React & Redux. I also contribute to the development of our API & our internal software (PHP).</p>
               </section>
             </div>
 
@@ -55,7 +55,7 @@ class Resume extends Component {
             {/*<!--SCHOOLING-->*/}
             <div className="first-column school">
               <IconGraduationCap iconTitle="graduation-cap" alt="graduation cap icon" />
-                <span className="resume-title">EDUCATION</span>
+                <div className="resume-title work-school-title">EDUCATION</div>
             </div>
 
             {/*<!--IRON YARD-->*/}
@@ -126,7 +126,7 @@ class Resume extends Component {
             <div className="second-column resume">
               <IconDownload iconTitle="download" alt="download icon" />
             <span className="resume-title">
-                <a href="app/resume/resume.pdf" download="./resume.pdf">DOWNLOAD RESUME</a>
+                <a href="src/components/resume/resume.pdf" download="./resume.pdf">DOWNLOAD RESUME</a>
             </span>
 
             </div>

@@ -1,4 +1,4 @@
-export const items = [
+export const PORTFOLIO_ITEMS = [
   {
     id: 2,
     name: "peralta",

@@ -1,3 +1,5 @@
+@import '../../styles/_variables';
+
 .sub-content {
   padding-top: 25px;
 }
@@ -5,6 +7,9 @@
 .quote {
   font-size: 3.5rem;
   text-align: center;
+  span {
+    color: $main-blue;
+  }
   p {
     font-size: 1.5rem;
     text-align: center;
@@ -29,6 +34,9 @@
 }
 
 .about-section {
+  h2 {
+    color: $main-blue;
+  }
   p {
     font-size: 1.65rem;
     line-height: 1.65em;

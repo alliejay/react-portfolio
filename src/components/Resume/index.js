@@ -22,7 +22,7 @@ class Resume extends Component {
             {/*WORK HISTORY*/}
             <div className="first-column">
                 <IconBriefcase iconTitle="briefcase" alt="briefcase icon" />
-                <div className="resume-title work-school-title">WORK HISTORY</div>
+                <div className="title work-school-title upper">Work History</div>
             </div>
 
             {/*<!--CTI TOWERS-->*/}
@@ -55,7 +55,7 @@ class Resume extends Component {
             {/*<!--SCHOOLING-->*/}
             <div className="first-column school">
               <IconGraduationCap iconTitle="graduation-cap" alt="graduation cap icon" />
-                <div className="resume-title work-school-title">EDUCATION</div>
+                <div className="title work-school-title upper">Education</div>
             </div>
 
             {/*<!--IRON YARD-->*/}
@@ -93,7 +93,7 @@ class Resume extends Component {
             {/*<!--DEV SKILLS-->*/}
             <div className="second-column">
               <IconCode iconTitle="code" alt="code icon" />
-                <span className="resume-title">DEVELOPMENT SKILLS</span>
+                <span className="title upper">Development Skills</span>
             </div>
 
             <section className="skills">
@@ -112,7 +112,7 @@ class Resume extends Component {
             {/*<!--DESIGN SKILLS-->*/}
             <div className="second-column design">
               <IconPalette iconTitle="palette" alt="palette icon" />
-                <span className="resume-title">DESIGN SKILLS</span>
+                <span className="title upper">Design Skills</span>
             </div>
 
             <section className="skills">
@@ -125,8 +125,8 @@ class Resume extends Component {
             {/*<!--DESIGN SKILLS-->*/}
             <div className="second-column resume">
               <IconDownload iconTitle="download" alt="download icon" />
-            <span className="resume-title">
-                <a href="src/components/resume/resume.pdf" download="./resume.pdf">DOWNLOAD RESUME</a>
+            <span className="title upper">
+                <a href="src/components/resume/resume.pdf" download="./resume.pdf">Download Resume</a>
             </span>
 
             </div>

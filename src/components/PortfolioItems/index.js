@@ -10,7 +10,7 @@ const PortfolioItems = (props) => {
   let projectCards = data.map((obj) => {
     return(
         <div className="portfolio-item clearfix" key={obj.id}>
-          <section className="title col col-12">
+          <section className="portfolio-title col col-12">
             <h4>{obj.title}</h4>
             <span className="github-link">
               <a href={obj.url} target="_blank">

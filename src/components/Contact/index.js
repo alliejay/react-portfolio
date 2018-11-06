@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import IconMail from 'icons/mail'
 import IconEmail from 'icons/email'
 import IconGithub from 'icons/github'
 import IconLinkedIn from 'icons/linkedin'
@@ -15,8 +16,11 @@ class Contact extends Component {
       <div className="contact-wrapper">
 
         <div className="col col-8">
-          <div className="title upper">Contact Information</div>
-          <p>If you have any questions about my work experience or if you just want to connect, check out the listings to your right. The best way to contact me is via email, but I check my other social media accounts on a regular basis as well.</p>
+          <div className="first-column contact-description">
+            <IconMail iconTitle="mail" alt="mail icon" />
+            <div className="title upper contact-title">Contact Information</div>
+            <p>If you have any questions about my work experience or if you just want to connect, check out the listings to your right. The best way to contact me is via email, but I check my other social media accounts on a regular basis as well.</p>
+          </div>
         </div>
 
         <div className="col col-4">

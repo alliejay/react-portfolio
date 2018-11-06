@@ -35,28 +35,25 @@ const getPlugins = () => {
     plugins.push(new webpack.optimize.DedupePlugin())
     plugins.push(new webpack.optimize.OccurenceOrderPlugin())
     plugins.push(new webpack.optimize.UglifyJsPlugin({
-      compress: {warnings: false},
-      output: {comments: false},
+      compress: { warnings: false },
+      output: { comments: false },
       sourcemap: false,
       minimize: true,
       mangle: {
-        except: ['$super', '$', 'exports', 'require', '$q', '$ocLazyLoad']
+        except: [ '$super', '$', 'exports', 'require', '$q', '$ocLazyLoad' ]
       }
     }))
-  }
-
-  plugins.push(
-    new CopyWebpackPlugin([
+    //copy the index to {ouput}/index.html
+    plugins.push(new CopyWebpackPlugin([
       { from: 'index.html' },
       { from: 'src/static' }
-    ]),
-    new ExtractTextPlugin('stylesheets/app.css', {
-      allChunks: true
-    }),
-    new webpack.LoaderOptionsPlugin({
-      debug: !isProd ? true : false,
-    })
-  )
+    ]))
+  }
+
+  //always push this
+  plugins.push(new ExtractTextPlugin('stylesheets/app.css', {
+    allChunks: true
+  }))
 
   return plugins
 }

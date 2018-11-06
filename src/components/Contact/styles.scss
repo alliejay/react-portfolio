@@ -5,7 +5,7 @@
 
 .contact-description {
   p {
-    margin-top: 20px;
+    margin: 25px;
   }
 }
 
@@ -14,4 +14,17 @@
   width: 85%;
   border-bottom: 3px solid lightgray;
   padding-bottom: 10px;
+}
+
+.contact-list {
+  margin-top: 20px;
+  list-style-type: none;
+  li {
+    margin: 10px;
+    a {
+      padding-left: 10px;
+      font-size: 14pt;
+      font-weight: 400;
+    }
+  }
 }

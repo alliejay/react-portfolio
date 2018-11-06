@@ -19,25 +19,27 @@ class Contact extends Component {
           <div className="first-column contact-description">
             <IconMail iconTitle="mail" alt="mail icon" />
             <div className="title upper contact-title">Contact Information</div>
-            <p>If you have any questions about my work experience or if you just want to connect, check out the listings to your right. The best way to contact me is via email, but I check my other social media accounts on a regular basis as well.</p>
+            <p>If you have any questions about my work experience or if you just want to connect, my contact details are listed here. The best way to get in touch with me is via <a href="https://www.linkedin.com/in/alliejarsenault/" target="_blank">Linked In</a>, but I check my other accounts on a regular basis as well.</p>
           </div>
         </div>
 
         <div className="col col-4">
-          <ul>
+          <ul className="contact-list">
             <li>
-              <a href="mailto:alliejarsenault@gmail.com">
-                <IconEmail /> alliejarsenault@gmail.com
-              </a>
+              <IconEmail />
+              <a href="mailto:alliejarsenault@gmail.com">alliejarsenault@gmail.com </a>
             </li>
             <li>
-              <IconLinkedIn /> Linked In
+              <IconLinkedIn />
+              <a href="https://www.linkedin.com/in/alliejarsenault/" target="_blank">alliejarsenault</a>
             </li>
             <li>
-              <IconGithub />  Github
+              <IconGithub />
+              <a href="https://github.com/alliejay" target="_blank">alliejay</a>
             </li>
             <li>
-              <IconTwitter /> alliejay
+              <IconTwitter />
+              <a href="https://twitter.com/allieJarsenault" target="_blank">alliejarsenault</a>
             </li>
           </ul>
         </div>

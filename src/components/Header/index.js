@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Link from 'react-router/Link'
 import ProfileImg from 'cartoon-dev-allie.png'
-import 'styles.scss'
+import './styles.scss'
 
 // sticky nav
 window.addEventListener('scroll', () => {
